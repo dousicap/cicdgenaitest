@@ -14,7 +14,7 @@ app = FastAPI(title="FastAPIii CRUD Application", version="1.0.0")
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to FastAPI CRUD Application", "status": "healthy"}
+    return {"message": "Welcome to Dou AI FastAPI CRUD Application", "status": "healthy"}
 
 
 @app.get("/health")
